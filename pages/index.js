@@ -1,6 +1,4 @@
 import Head from "next/head";
-import Image from "next/image";
-// import styles from "../styles/Home.module.css";
 
 export default function Home() {
   return (
@@ -12,45 +10,55 @@ export default function Home() {
         <link rel="preconnect" href="https://fonts.googleapis.com" />
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
         <link
-          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Franklin:ital,wght@1,400&family=Newsreader&family=Playfair+Display:wght@800&display=swap"
+          href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond&family=Libre+Franklin:ital,wght@1,400&family=Fira+Code&family=Newsreader&family=Playfair+Display:wght@800&display=swap"
           rel="stylesheet"
         />
       </Head>
 
-      <main className="prose lg:prose-xl prose-indigo text-center">
-        <span className="font-sans">You're invited to</span>
-        <hr />
-        <h1 className="from-pink-400 to-indigo-800">
-          Ashley & Ian's Going Away BBQ
-        </h1>
-        <hr />
-        <h2>🍔 What</h2>
-        <p>Ashley and Ian are moving to Denver. Stop by and say goodbye!</p>
-
-        <h2>⌚ When</h2>
-        <p>
-          Saturday, August 7, 2021
-          <br />
-          4:00 - 8:00
-        </p>
-
-        <h2>🏠 Where</h2>
+      <main className="prose lg:prose-xl prose-indigo text-center border-4 border-white rounded-lg bg-white bg-opacity-90">
         <div>
-          <p>
-            1415 Cuming Street
-            <div className="grid grid-cols-1 place-items-center">
-              <iframe
-                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.892173721146!2d-95.93709798457793!3d41.26768357927535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fb60ddc971f%3A0x96eba0e6955d8c9b!2s1415%20Cuming%20St%2C%20Omaha%2C%20NE%2068102!5e0!3m2!1sen!2sus!4v1627473223609!5m2!1sen!2sus"
-                width="400"
-                height="300"
-                className="border-0"
-                allowfullscreen=""
-                loading="lazy"
-              ></iframe>
+          <div>
+            <span className="font-sans">You're invited to</span>
+            {/* <hr /> */}
+            <h1 className="from-pink-400 to-indigo-800">
+              Ashley & Ian's Going Away BBQ
+            </h1>
+            <hr />
+            <h2>🍔 What</h2>
+            <p>Ashley and Ian are moving to Denver. Stop by and say goodbye!</p>
+
+            <h2>⌚ When</h2>
+            <p>
+              Saturday, August 7, 2021
+              <br />
+              4:00 - 8:00
+            </p>
+
+            <h2>🏠 Where</h2>
+            <div>
+              <p>
+                1415 Cuming Street
+                <div className="grid grid-cols-1 place-items-center">
+                  <iframe
+                    src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2998.892173721146!2d-95.93709798457793!3d41.26768357927535!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x87938fb60ddc971f%3A0x96eba0e6955d8c9b!2s1415%20Cuming%20St%2C%20Omaha%2C%20NE%2068102!5e0!3m2!1sen!2sus!4v1627473223609!5m2!1sen!2sus"
+                    width="400"
+                    height="300"
+                    className="border-0"
+                    allowfullscreen=""
+                    loading="lazy"
+                    className="border-2 border-white rounded-lg"
+                  ></iframe>
+                </div>
+              </p>
             </div>
-          </p>
+          </div>
         </div>
       </main>
+
+      <footer className="prose lg:prose-xl prose-indigo text-center">
+        <p className="font-mono text-indigo-400">made with ♥ by ian & ashley</p>
+      </footer>
+      {/* <Mountains /> */}
     </div>
   );
 }

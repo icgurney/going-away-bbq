@@ -7,12 +7,12 @@ module.exports = {
       sans: ['"Libre Franklin"', "sans-serif"],
       serif: ["Newsreader", "serif"],
       heading: ['"Cormorant Garamond"', "serif"],
+      mono: ['"Fira Code"', "monospace"],
     },
     extend: {
       typography: (theme) => ({
         DEFAULT: {
           css: {
-            // color: theme("colors.red.600"),
             fontFamily: theme("fontFamily.serif").join(","),
             h1: {
               fontFamily: theme("fontFamily.display").join(","),
