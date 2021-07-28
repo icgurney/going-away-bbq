@@ -13,8 +13,8 @@ export default function RSVP() {
               placeholder=""
             />
           </label>
-          <div>
-            <span>Can you make it?</span>
+          <fieldset>
+            <legend>Can you make it?</legend>
             <div>
               <label htmlFor="attending" className="inline-flex items-center">
                 <input type="radio" name="response" id="attending" value="1" />
@@ -35,7 +35,7 @@ export default function RSVP() {
                 <span className="ml-2 text-gray-700">I can&apos;t attend</span>
               </label>
             </div>
-          </div>
+          </fieldset>
           <label htmlFor="guests">
             <span className="text-gray-700">Bringing anyone?</span>
             <div className="flex items-center">
