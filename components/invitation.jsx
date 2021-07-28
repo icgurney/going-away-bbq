@@ -31,8 +31,8 @@ export default function Invitation() {
             <li>Maybe even a watermelon 🍉</li>
           </ul>
           <p>
-            And I'm sure some other surprises! But really, bring anything you
-            would like to go with burgers or to drink.
+            And I&apos;m sure some other surprises! But really, bring anything
+            you would like to go with burgers or to drink.
           </p>
 
           <h2>Date & time</h2>
