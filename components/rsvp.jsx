@@ -32,7 +32,7 @@ export default function RSVP() {
                   id="not-attending"
                   value="0"
                 />
-                <span className="ml-2 text-gray-700">I can't attend</span>
+                <span className="ml-2 text-gray-700">I can&apos;t attend</span>
               </label>
             </div>
           </div>
@@ -63,7 +63,7 @@ export default function RSVP() {
           <div className="mx-auto">
             <button
               type="submit"
-              class="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
+              className="inline-flex items-center px-4 py-2 border border-transparent text-base font-medium rounded-md shadow-sm text-white bg-indigo-600 hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-offset-2 focus:ring-indigo-500"
             >
               Send response
             </button>
