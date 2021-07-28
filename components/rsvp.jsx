@@ -1,7 +1,7 @@
 export default function RSVP() {
   return (
     <div>
-      <form name="rsvp" method="POST" data-netlify="true">
+      <form name="rsvp" method="POST" action="/thanks" data-netlify="true">
         <div className="grid grid-cols-1 gap-6 mt-8 max-w-md">
           <label>
             <span className="text-gray-700">Name</span>
