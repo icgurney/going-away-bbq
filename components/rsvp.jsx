@@ -8,6 +8,7 @@ export default function RSVP() {
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
+        <input type="hidden" name="form-name" value="rsvp" />
         <div className="grid grid-cols-1 gap-6 mt-8 max-w-md">
           <label>
             <span className="text-gray-700">Name</span>
