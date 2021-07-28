@@ -16,16 +16,13 @@ export default function RSVP() {
           <fieldset>
             <legend>Can you make it?</legend>
             <div>
-              <label htmlFor="attending" className="inline-flex items-center">
+              <label className="inline-flex items-center">
                 <input type="radio" name="response" id="attending" value="1" />
                 <span className="ml-2 text-gray-700">Attending</span>
               </label>
             </div>
             <div>
-              <label
-                htmlFor="not-attending"
-                className="inline-flex items-center"
-              >
+              <label className="inline-flex items-center">
                 <input
                   type="radio"
                   name="response"
