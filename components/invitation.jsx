@@ -6,7 +6,7 @@ export default function Invitation() {
     <main className="px-2 py-5 lg:px-4 lg:py-6 prose sm:prose lg:prose-lg xl:prose-2xl mx-auto border-4 border-white rounded-lg bg-white filter drop-shadow shadow-xl">
       <div className="">
         <div>
-          <h1 className="from-pink-400 to-indigo-800 text-center">
+          <h1 className="from-pink-400 to-indigo-800 text-center pb-2">
             Ashley & Ian&apos;s
             <br />
             Going Away BBQ
