@@ -6,26 +6,34 @@ export default function Invitation() {
     <main className="px-2 py-5 lg:px-4 lg:py-6 prose sm:prose lg:prose-lg xl:prose-2xl mx-auto border-4 border-white rounded-lg bg-white filter drop-shadow shadow-xl">
       <div className="">
         <div>
-          <h1 className="from-pink-400 to-indigo-800 text-center pb-2">
+          <h1 className="from-yellow-600 to-red-600 text-center pb-2">
             Ashley & Ian&apos;s
             <br />
             Going Away BBQ
           </h1>
 
-          <h2>What is this all about?</h2>
+          <h2>We are moving to Denver! 🏔</h2>
           <p>
-            We are moving to <em>Denver!</em>
+            We are excited to start a new journey together as we explore the
+            Rockies and all Denver has to offer.
+          </p>
+          <p>
+            <em>But before we go...</em>
           </p>
           <p>
             We would like friends and family to join us for a casual
-            get-together at our apartment complex.
+            get-together at our place.
           </p>
           <p>We will have:</p>
           <ul>
-            <li>Burgers</li>
-            <li>Brews</li>
-            <li>Chips</li>
+            <li>Burgers 🍔 & weiners 🌭</li>
+            <li>Some beers 🍻</li>
+            <li>Maybe even a watermelon 🍉</li>
           </ul>
+          <p>
+            And I'm sure some other surprises! But really, bring anything you
+            would like to go with burgers or to drink.
+          </p>
 
           <h2>Date & time</h2>
           <p>
@@ -48,7 +56,11 @@ export default function Invitation() {
               <strong>stairs</strong> on the south side of the building and we
               can let you up that way. Otherwise if you use code{" "}
               <code>#0505</code> on the callbox we can buzz you in and you can
-              take the <strong>elevator</strong>.
+              take the <strong>elevator</strong> to the{" "}
+              <strong>
+                2<sup>nd</sup> floor
+              </strong>{" "}
+              and the patio door is directly your righthand side.
             </p>
             <Map />
           </div>
