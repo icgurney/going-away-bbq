@@ -3,7 +3,7 @@ export default function RSVP() {
     <div>
       <form name="rsvp" method="POST" netlify>
         <div className="grid grid-cols-1 gap-6 mt-8 max-w-md">
-          <label htmlFor="name">
+          <label>
             <span className="text-gray-700">Name</span>
             <input
               type="text"
@@ -33,7 +33,7 @@ export default function RSVP() {
               </label>
             </div>
           </fieldset>
-          <label htmlFor="guests">
+          <label>
             <span className="text-gray-700">Bringing anyone?</span>
             <div className="flex items-center">
               <input
@@ -48,7 +48,7 @@ export default function RSVP() {
               <span className="ml-2 text-gray-700 font-sans">guests</span>
             </div>
           </label>
-          <label htmlFor="comments">
+          <label>
             <span>Anything you would like to tell us?</span>
             <textarea
               name="comments"
