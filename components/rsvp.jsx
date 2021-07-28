@@ -4,7 +4,7 @@ export default function RSVP() {
       <form
         name="rsvp"
         method="POST"
-        action="/thanks"
+        action="#"
         data-netlify="true"
         netlify-honeypot="bot-field"
       >
