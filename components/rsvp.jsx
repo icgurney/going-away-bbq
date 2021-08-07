@@ -1,10 +1,11 @@
 export default function RSVP() {
+  const isEventOver = new Date() > new Date("2021-08-09T01:00:00");
   return (
     <div>
       <form
         name="rsvp"
         method="POST"
-        action="/thanks"
+        action={isEventOver ? "/sorry" : "/thanks"}
         data-netlify="true"
         netlify-honeypot="bot-field"
         className="mx-auto max-w-md"
